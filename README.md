@@ -21,7 +21,7 @@ A Turkish offensive-language detection application built with Gradio.
 
 4. Download the model files from the link below and place them in the `models/` directory, preserving the original folder structure.
 
-   Model download: LINK_TO_BE_ADDED
+   Model download: https://drive.google.com/file/d/19AdsyydSwQSPUT5_RIrj2bmXxVjZvmXS/view?usp=sharing
 
 ## Run
 
@@ -44,3 +44,4 @@ Benchmark and evaluation outputs are available in the `results/` folder.
 
 ## Source Code
 Training, preprocessing, evaluation, quantization, and benchmarking scripts are in `src/`.
+
