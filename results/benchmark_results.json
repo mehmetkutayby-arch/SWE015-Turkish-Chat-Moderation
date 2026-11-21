@@ -1,0 +1,33 @@
+{
+  "device": "CPU",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "cpu_threads": 4,
+  "warmup_runs": 10,
+  "measured_runs": 100,
+  "results": {
+    "TF-IDF": {
+      "latency_ms": 0.2556,
+      "median_ms": 0.2538,
+      "p95_ms": 0.2693,
+      "size_mb": 1.35
+    },
+    "Word2Vec + FFNN": {
+      "latency_ms": 0.0642,
+      "median_ms": 0.0634,
+      "p95_ms": 0.0684,
+      "size_mb": 26.31
+    },
+    "BERTurk FP32": {
+      "latency_ms": 74.6177,
+      "median_ms": 74.471,
+      "p95_ms": 76.5429,
+      "size_mb": 422.0
+    },
+    "BERTurk INT8": {
+      "latency_ms": 22.304,
+      "median_ms": 22.1859,
+      "p95_ms": 22.8359,
+      "size_mb": 177.42
+    }
+  }
+}

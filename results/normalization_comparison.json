@@ -1,0 +1,7 @@
+{
+  "test_samples": 3515,
+  "fp32_raw_macro_f1": 0.8082169612955805,
+  "fp32_normalized_macro_f1": 0.8069898043366925,
+  "int8_raw_macro_f1": 0.8044331326372427,
+  "int8_normalized_macro_f1": 0.8076871128419075
+}

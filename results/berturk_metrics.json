@@ -1,0 +1,5 @@
+{
+  "macro_f1": 0.8082169612955805,
+  "model": "dbmdz/bert-base-turkish-cased",
+  "test_samples": 3515
+}
