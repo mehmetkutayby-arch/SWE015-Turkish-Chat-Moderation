@@ -19,7 +19,7 @@ A Turkish offensive-language detection application built with Gradio.
 
    python -m pip install -r requirements.txt
 
-4. Download the model files from the link below and place them in the `models/` directory, preserving the original folder structure.
+4. Download the ZIP file from the link below. Extract its contents directly into the `models/` folder in the project root. After extraction, the paths should include `models/berturk/config.json`, `models/berturk_int8/quantized_state_dict.pt`, and `models/tfidf_model.joblib`.
 
    Model download: https://drive.google.com/file/d/19AdsyydSwQSPUT5_RIrj2bmXxVjZvmXS/view?usp=sharing
 
@@ -44,4 +44,5 @@ Benchmark and evaluation outputs are available in the `results/` folder.
 
 ## Source Code
 Training, preprocessing, evaluation, quantization, and benchmarking scripts are in `src/`.
+
 
